@@ -61,3 +61,6 @@ This repository contains:
 * **Neberkenezer** for making the buildings - [Neberkenezer](https://sketchfab.com/neberkenezer)
 * **Froggreen** for making the sofas - [Froggreen](https://sketchfab.com/Froggreen)
 
+## Tutorial 
+* https://drive.google.com/file/d/1L5YOSa9zhIIMmlJmR_DxB9OjYUGis-Po/view?usp=share_link
+
