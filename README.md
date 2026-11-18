@@ -64,3 +64,25 @@ This repository contains:
 ## Tutorial 
 * https://drive.google.com/file/d/1L5YOSa9zhIIMmlJmR_DxB9OjYUGis-Po/view?usp=share_link
 
+## Dependencies
+
+All dependencies are already included in the Unity project, so no additional installation is needed:
+- Unity3D 2021.3.22f1
+- Photon Unity Networking (PUN) 2, v2.41, and Photon Voice (in `Assets/Photon`)
+- Standard Unity packages (Input System 1.5.1, TextMeshPro 3.0.6, UGUI), installed automatically by Unity Hub when opening the project
+
+If needed, PUN can be re-imported via _Window > Package Manager > Install from name_.
+
+## Photon Setup
+
+Networking and synchronization between players are handled by the Photon cloud service, so an internet connection is required. To run the project with your own Photon account:
+1. Create a free account on [photonengine.com](https://www.photonengine.com) and create a _PUN_ application and a _Voice_ application.
+2. In Unity, open `Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings` and paste the App IDs in the _App Id Realtime_ and _App Id Voice_ fields.
+3. The default region is `eu`; it can be changed in the same file.
+
+Rooms are created with a maximum of 12 players; the evaluation sessions used two players per room.
+
+## Hardware Requirements
+
+MetaSERGE has no specific hardware requirements: a standard desktop or laptop computer running Windows, macOS, or Linux with an internet connection is sufficient. The evaluation sessions were run on university lab machines and personal computers in desktop mode (no VR headset).
+
